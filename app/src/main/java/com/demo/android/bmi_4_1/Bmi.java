@@ -26,7 +26,7 @@ package com.demo.android.bmi_4_1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmi);
         findViews();
-        setMyListeners();
+        setListeners();
     }
 
 
@@ -39,7 +39,7 @@ package com.demo.android.bmi_4_1;
     }
 
 
-    private void setMyListeners(){
+    private void setListeners(){
         submit.setOnClickListener(this);
 }
 
